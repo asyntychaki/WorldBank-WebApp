@@ -154,7 +154,8 @@ def return_figures():
                 xaxis = dict(title = 'Rural Population'),
                 yaxis = dict(title = 'Forest Area (square km)'),
                 )
-    
+                
+    # fifth chart plots rural population for 2015 as a bar chart
     graph_five = []
     df_five = cleandata('data/API_SP.RUR.TOTL_DS2_en_csv_v2_9914824.csv', ['Country Name', '2015'], ['2015'])
 
